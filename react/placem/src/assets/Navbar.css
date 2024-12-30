@@ -1,0 +1,15 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    color: rgb(30, 7, 75);
+    padding right: 1px;
+    padding left: 10px 10px;
+    background-color: blanchedalmond;
+    margin: 10px;
+    border-radius: 10px;
+
+}
