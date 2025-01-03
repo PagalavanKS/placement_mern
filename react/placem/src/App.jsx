@@ -4,13 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './component/Navbar'
 import Navbar2 from './component/Navbar2'
-import Footer from './component/Footer.jsx'
+
 import Home from './component/Home.jsx'
 import Contact from './component/Contact.jsx'
 import Blog from './component/Blog.jsx'
 import Login from './component/Login.jsx'
 import About from './component/About.jsx'
+
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Footer from './component/Footer.jsx'
+import UseEffect from './component/UseEffect.jsx'
+import UseMemo from './component/UseMemo.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -23,7 +27,11 @@ function App() {
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/blog" element={<Blog/>}/>
       <Route path="/about" element={<About/>}/>
-      </Routes>
+      </Routes><br></br><br></br>
+      <UseEffect/>
+      <br></br>
+      <Footer/>
+      <UseMemo/>
       </BrowserRouter>
 
 

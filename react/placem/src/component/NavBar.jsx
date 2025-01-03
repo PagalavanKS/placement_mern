@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <header>
       <h1 style={sky}>I am Pagal</h1>
-      <h2 class='Box-model'>Such a dumb😓</h2>
+      <h2 className='Box-model'>Such a dumb😓</h2>
       <h5 id='text'>And choose my friends same as me </h5>
       <h2>Count  {count}</h2>
       <button onClick={()=>set(count+1)}>Increase</button>
