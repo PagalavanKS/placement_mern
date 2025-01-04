@@ -15,6 +15,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Footer from './component/Footer.jsx'
 import UseEffect from './component/UseEffect.jsx'
 import UseMemo from './component/UseMemo.jsx'
+import SignUp from './component/back_end/Signup.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -28,6 +29,7 @@ function App() {
       <Route path="/blog" element={<Blog/>}/>
       <Route path="/about" element={<About/>}/>
       </Routes><br></br><br></br>
+      <SignUp/>
       <UseEffect/>
       <br></br>
       <Footer/>
